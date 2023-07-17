@@ -4,6 +4,7 @@ import ballerinax/trigger.github;
 import ballerinax/slack;
 
 // Types
+// NewComment
 type ReleaseInfo record {|
     string 'key;
     string value;
